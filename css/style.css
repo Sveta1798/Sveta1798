@@ -1,0 +1,483 @@
+.menu {
+  
+  width: 100%;
+ 
+  text-align: center;
+	color: white;
+	font-family: 'Neucha', cursive;
+	
+	font-size: 140%;
+	position: fixed;
+	z-index: 900;
+	height: 9%;
+}
+ 
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 12px;
+	
+}
+@media screen and (max-width:500px){
+	
+}
+ 
+.menu a:hover {
+  background: rgba(255,255,255,.2);
+  
+}
+.menu a:hover:before {
+    transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+.menu a:hover:after {
+    transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;
+}
+ 
+.itemsMenu li {
+  display:inline;
+  padding-right: 35px;
+  width:100%;
+  margin-bottom: 10px;
+	
+
+}
+  .itemsMenu li img{
+  vertical-align: middle;
+  margin-right: 10px;
+ }
+ 
+.iconMenu {
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  
+}
+.showitems {
+  display:block !important;
+}
+nav img{
+    clear: both;
+    width: 50px;
+    height: 40px;
+	
+}
+
+
+/*1 часть*/
+#fon1 {
+    background-image: url(9.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size:100%;
+    width:100%;
+    height: 670px;
+	
+	
+
+}
+
+#fon1 h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 15%;
+    font-weight: bold;
+	font-family: 'Neucha', cursive;
+}
+
+.cont{
+    color: white;
+    text-align: right;
+    float: right;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+	font-family: 'Neucha', cursive;
+}
+
+
+
+
+
+
+/*2 часть*/
+#sale {
+	margin-top: -10px;
+	padding: 0;
+	background:#1d1c5e;
+	color: white;
+	width: 100%;
+	height: 460px;
+	display: flex;
+	justify-content: space-around;
+}
+#sale .h1 {
+	margin-bottom: 7%;
+}
+#sale input{
+
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 30px 20px;
+    position: relative;
+    color: white;
+    border: 1px solid rgba(255,255,255,.4);
+    background: none;
+    font-weight: 100;
+    font-family: 'Neucha', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	font-size: 20px;
+}
+
+#sale input:hover:before {
+    transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+#sale input:hover:after {
+    transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;
+}
+#sale input:hover {
+    background: rgba(255,255,255,.2);
+}
+.akci{
+	float: left;
+	text-align: center;
+	font-size: 220%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	font-family: 'Neucha', cursive;
+}
+
+#sale .pion img{
+	height: 400px;
+	width: 320px;
+	float: right;
+	padding-top: 20%;
+	padding-left: 5%;
+}
+.timer{
+	width: 70%;
+}
+
+
+
+
+/*3 часть*/
+#fon2 {
+    background-image: url(Dahlias_Closeup_524141_1920x1200.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    width:100%;
+    height:670px;
+    margin-top: -30px;
+}
+.dos{
+    margin-left: 7%; 
+	padding-top: 3%;
+}
+.dos h1{
+	color: white;
+    font-size: 240%; 
+    margin-left: 30px;
+    padding-top: 80px;
+    padding-left: 200px;
+	font-family: 'Neucha', cursive;
+}
+.dos img{
+    width: 140px;
+    height: 140px;
+    float: left;
+    
+}
+.of{
+    text-align: right;
+    margin-right: 7%;
+    height: 100px;
+	align-items: baseline;
+}
+.of h1{
+	color: white; 
+    font-size: 260%;  
+    margin-left: 1%;
+    padding-top: 80px;
+    padding-right: 260px;
+	font-family: 'Neucha', cursive;
+}
+.of img{
+    padding-top: 30px;
+    width: 100px;
+    height: 150px;
+    float:right;
+}
+.karta{
+    margin-left: 7%; 
+
+}
+.karta h1{
+	color: white;
+    font-size: 240%; 
+    margin-left: 30px;
+    padding-top: 70px;
+    padding-left: 200px;
+	font-family: 'Neucha', cursive;
+}
+.karta img{
+    width: 140px;
+    height: 140px;
+    float: left;  
+}
+.skidka{
+    text-align: right;
+    margin-right: 7%;
+    height: 100px;
+	align-items: baseline;
+}
+.skidka h1{
+	color: white; 
+    font-size: 260%;  
+    margin-left: 1%;
+    padding-top: 40px;
+    padding-right: 260px;
+	font-family: 'Neucha', cursive;
+}
+.skidka img{
+    width: 130px;
+    height: 120px;
+    float:right;
+}
+.cena{
+    margin-left: 7%; 
+	padding-top: 1%;
+}
+.cena h1{
+	color: white;
+    font-size: 240%; 
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-left: 200px;
+	font-family: 'Neucha', cursive;
+}
+.cena img{
+    width: 140px;
+    height: 140px;
+    float: left;  
+}
+
+
+
+/*4 часть*/
+#fon3{
+    background-color: #1d1c5e;
+	height:670px;
+}
+#fon3 h1{
+	padding-top: 7%;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Neucha', cursive;
+    color: white;
+    
+}
+
+    
+
+
+
+/*5 часть*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#timeline {
+	height: 680px;
+	padding-top: 10%;
+  font-family: 'Neucha', cursive;
+  background-image: url(fl.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+  color: #fff;
+  overflow-x: hidden;
+}  
+
+#timeline img{
+	width: 20%;
+	height: 20%;
+	
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+#timeline h1{
+	font-size: 70px;
+	font-family: 'Neucha', cursive;
+	text-align: center;
+}
+#timeline h3 {
+  font-size: 290%;
+	
+}
+
+
+
+#timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 3px;
+  margin: 0 auto;
+  background: #fff;
+	height: 100px;
+}
+
+#timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+#timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 5px;
+  
+  
+}
+
+#timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+}
+
+#timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+
+
+#timeline ul li:nth-child(even) div {
+  left: -450px;
+}
+.zai img, .dostav img{
+	float: left;
+	padding-top: 10%;
+}
+.phone img, .oplata img{
+	float: right;
+	padding-top: 10%;
+}
+.zai h3, .dostav h3{
+	padding-top: 17%;
+	padding-left: 35%;
+}
+.phone h3, .oplata h3{
+	text-align: right;
+	padding-top: 15%;
+	padding-right: 35%;
+}
+
+
+
+
+/*6 часть*/
+#fon5 {
+    background-image: url(vesna-lilac-tsvetenie-siren-blossom-purple-spring-flowers.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    width:100%;
+    height: 670px;
+    background-position: center top;
+    background-size: 1349px;
+
+}
+#fon5 h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-family: 'Neucha', cursive;
+    color: white;
+}
+.zak_zv{
+    text-align: center;
+    margin-left: 5%;
+    float: left;
+	color: white;
+	margin-top: 5%;
+}
+.zak_zv input[type="text"], .zak_zv input[type="tel"], .zak_zv input[type="email"], .zak_zv input[type="submit"]{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    position: relative;
+    color: white;
+    border: 1px solid rgba(255,255,255,.4);
+    background: none;
+    font-weight: 100;
+    font-family: 'Neucha', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	width: 70%;
+	font-size: 20px;
+}
+	
+.zak_zv input[type="submit"]:hover:before {
+    transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+.zak_zv input[type="submit"]:hover:after {
+    transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;
+}
+.zak_zv input[type="submit"]:hover {
+    background: rgba(255,255,255,.2);
+}
+fieldset{
+	background: rgba(255,255,255,.2);
+}
+fieldset label{
+	font-size: 20px;
+	font-family: 'Neucha', cursive;
+}
+
+.mesto{
+    margin-left: 10%;
+    float: left;
+    text-align: right;
+	margin-top: 5%;
+}
+.mesto h1{
+     padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 70px;
+    font-family: 'Neucha', cursive;
+    
+     text-align: center;
+}
+.mesto h2{
+    font-size: 20px;
+     padding-bottom: 20px;
+    text-align: center;
+	font-family: 'Neucha', cursive;
+	color: white;
+}
