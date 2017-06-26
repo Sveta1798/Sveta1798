@@ -1,34 +1,3 @@
-<?php
-
-	require_once "start.php";
-
-	if (!empty($_POST['addCall'])) {
-		$fn = $_POST['fn'];
-		$sn = $_POST['sn'];
-		$tel = $_POST['tel'];
-		$email = $_POST['email'];
-		
-		$add = $DB->prepare("INSERT INTO `calls` (`sn`, `fn`, `tel`, `email`) VALUES (:s, :f, :t, :e)");
-		
-		$add->bindValue(":s", $sn);
-		$add->bindValue(":f", $fn);
-		$add->bindValue(":t", $tel);
-		$add->bindValue(":e", $email);
-		
-		if ($add->execute()) {
-			showMessage("Ок!!!!");
-		} else {
-			showMessage("Всё плохо ):");
-		}
-		
-		redirect("index.php");
-	}
-
-
-	$data = $DB->query("SELECT * FROM `settings`")->fetchAll(PDO::FETCH_ASSOC);
-	$data = $data[0];
-
-?>
 <!doctype html>
 <html>
     <head>
